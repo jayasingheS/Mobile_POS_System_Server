@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-const mongoDbUri = 'mongodb+srv://Shehan:ENMSI17359948@cluster0.kmvju.mongodb.net/Printer_IOT_API?retryWrites=true&w=majority';
 mongoose.connect (mongoDbUri,{useNewUrlParser: true, 
                              useUnifiedTopology: true,
                              useFindAndModify:false,
